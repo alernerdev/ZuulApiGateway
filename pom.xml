@@ -19,11 +19,23 @@
 		<spring-cloud.version>Hoxton.SR5</spring-cloud.version>
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>snapshot</id>
+			<url>https://artifactory.awstrp.net/artifactory/libs-snapshot</url>
+		</repository>
+		<repository>
+			<id>release</id>
+			<url>https://artifactory.awstrp.net/artifactory/libs-release</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
@@ -31,6 +43,15 @@
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-netflix-zuul</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt</artifactId>
+			<version>0.9.1</version>
 		</dependency>
 
 		<dependency>
