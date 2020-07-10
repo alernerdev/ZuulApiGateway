@@ -19,17 +19,6 @@
 		<spring-cloud.version>Hoxton.SR5</spring-cloud.version>
 	</properties>
 
-	<repositories>
-		<repository>
-			<id>snapshot</id>
-			<url>https://artifactory.awstrp.net/artifactory/libs-snapshot</url>
-		</repository>
-		<repository>
-			<id>release</id>
-			<url>https://artifactory.awstrp.net/artifactory/libs-release</url>
-		</repository>
-	</repositories>
-
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

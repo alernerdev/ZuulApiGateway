@@ -1,0 +1,3 @@
+com/pragmaticbitbucket/photoapp/gateway/security/AuthorizationFilter.class
+com/pragmaticbitbucket/photoapp/gateway/security/WebSecurity.class
+com/pragmaticbitbucket/photoapp/gateway/PhotoAppApiZuulApiGatewayApplication.class
